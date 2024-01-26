@@ -2,6 +2,9 @@
 
 This repository contains the code and resources for fraud transaction detection using machine learning. The purpose of this project is to develop a model that can accurately identify fraudulent transactions in a given dataset.
 
+![EDA by transation types](./fraud_eda_by_types.jpg)
+
+
 ## Problem Description
 
 The problem we're addressing is the detection of fraud in financial transactions. With the increasing digitization of financial services and the rise of online transactions, fraudulent activities have become a significant concern for businesses and individuals alike. Fraudulent transactions can result in financial losses, damage to reputation, and compromised security.
@@ -39,6 +42,13 @@ The notebook [training.ipynb](https://github.com/AbdelrahmanElmasry/ml-fraud-det
 6. **Hyperparameter Tuning**: We conduct hyperparameter tuning to optimize the model's performance. This involves exploring different combinations of hyperparameters and selecting the ones that yield the best results.
 
 7. **Final Model Selection**: Based on the evaluation results, we select the best-performing model as our final fraud detection model.
+### Training by Random forest AUC
+![Training by Decision tree](./fraud_model_decision_tree_auc.jpg)
+### Training by Random forest AUC
+![Training by Random forest](./fraud_model_rf_auc.jpg)
+
+### ===> XGBoost is the best model to predidct the fraud transations among the other used model ---
+![Training by XGBoost](./fraud_model_xgb.jpg)
 
 Please refer to the [training.ipynb](https://github.com/AbdelrahmanElmasry/ml-fraud-detection/blob/master/training.ipynb) file for detailed code implementation and explanations.
 
@@ -50,8 +60,8 @@ using jupyter nbconvert
 
 ### Step 1: Cloning git repo
 ```bash
-git clone https://github.com/AbdelrahmanElmasry/cnn-color-classifier.git
-cd cnn-color-classifier
+git clone https://github.com/AbdelrahmanElmasry/ml-fraud-detection.git
+cd ml-fraud-detection
 ```
 
 ### Step 2: Install Dependencies
